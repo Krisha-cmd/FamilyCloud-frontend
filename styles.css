@@ -149,7 +149,7 @@ body,html{
         left: 50%;
         transform: translate(-50%,-50%);
         max-height: 50vh;
-        width: 100%;
+        width: 90%;
         h4{
             font-size: medium;
             margin: 0;
