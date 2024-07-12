@@ -11,18 +11,6 @@ body,html{
 .background {
 
 }
-#wavy-circle{
-    transform: scale(2);
-    position: absolute;
-    top: 50%; 
-    left: 30%; 
-    width: 500px; 
-    height: 500px;
-    transform: translate(-50%,-50%) rotate(90deg);
-    animation: float 3s ease-in-out infinite;
-    z-index: 2;
-    
-}
 
 #background-img{
     position: fixed;
@@ -33,19 +21,32 @@ body,html{
     max-height: 100%;
 
 }
-
-.background img {
-    position: absolute;
-    transform: scale(0.8);
-    top: 50%; 
-    z-index: 2;
-    left: 30%; 
+#laptop, #programmer, #coder{
+    position: fixed;
+    max-width: 300px; 
     transform: translate(-50%,-50%);
-    width: 400px; 
-    height: 400px; 
-    object-fit:cover;
-    animation: float 3s ease-in-out infinite;
 }
+#laptop{
+    top: 72%; 
+    left: 30%;
+    animation: float 3s ease-in-out infinite; 
+}
+
+#coder{
+    top: 35%; 
+    left: 15%;
+    animation: float 2.9s ease-in-out infinite; 
+
+}
+
+#programmer{
+    top: 40%; 
+    
+    z-index: 2;
+    left: 45%; 
+    animation: float 3.1s ease-in-out infinite;
+}
+
 
 @keyframes float {
     0% {
