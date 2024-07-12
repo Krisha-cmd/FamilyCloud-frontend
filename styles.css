@@ -130,9 +130,38 @@ body,html{
 }
 
 @media (max-width:600px) {
-    .fancy-hole{
-        top:10%;
-        transform: scale();
+    .media-icon{
+            width: 100px;
     }
-    
+    #coder{
+        top:30%;
+    }
+    #programmer{
+        top:20%
+    }
+    #laptop{
+        top:25%;
+        left:80%;
+    }
+
+    .login-container{
+        top: 64%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        max-height: 50vh;
+        width: 100%;
+        h4{
+            font-size: medium;
+            margin: 0;
+            margin-top:10px;
+        }
+        h1{
+            font-size: 2.8rem;
+            width: 100%;
+            margin: 0;
+        }
+    }
+    .login-form{
+        margin: 0;
+    }
 }
